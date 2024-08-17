@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[==DataBase Connection==]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser has launched]]>
+    </line>
+    <line>
+      <![CDATA[Open the Browser]]>
+    </line>
+    <line>
+      <![CDATA[User login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Organization is created and TC is PASSED]]>
+    </line>
+    <line>
+      <![CDATA[User logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[Close the Browser]]>
+    </line>
+    <line>
+      <![CDATA[==DataBase Disconnection]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-13T18:29:08 IST" name="Default suite" finished-at="2024-08-13T18:29:28 IST" duration-ms="20421">
+    <groups>
+    </groups>
+    <test started-at="2024-08-13T18:29:08 IST" name="Default test" finished-at="2024-08-13T18:29:28 IST" duration-ms="20421">
+      <class name="Testannotation.CreateOrganizationTest">
+        <test-method is-config="true" signature="bsconfig()[pri:0, instance:Testannotation.CreateOrganizationTest@6574a52c]" started-at="2024-08-13T18:29:08 IST" name="bsconfig" finished-at="2024-08-13T18:29:08 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==DataBase Connection==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsconfig -->
+        <test-method is-config="true" signature="bcconfig()[pri:0, instance:Testannotation.CreateOrganizationTest@6574a52c]" started-at="2024-08-13T18:29:08 IST" name="bcconfig" finished-at="2024-08-13T18:29:14 IST" duration-ms="6138" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser has launched]]>
+            </line>
+            <line>
+              <![CDATA[Open the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:Testannotation.CreateOrganizationTest@6574a52c]" started-at="2024-08-13T18:29:14 IST" name="bmconfig" finished-at="2024-08-13T18:29:17 IST" duration-ms="2916" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User login Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="createorg()[pri:0, instance:Testannotation.CreateOrganizationTest@6574a52c]" started-at="2024-08-13T18:29:17 IST" name="createorg" finished-at="2024-08-13T18:29:26 IST" duration-ms="9590" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Organization is created and TC is PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createorg -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:Testannotation.CreateOrganizationTest@6574a52c]" started-at="2024-08-13T18:29:26 IST" name="amconfig" finished-at="2024-08-13T18:29:28 IST" duration-ms="1512" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="acconfig()[pri:0, instance:Testannotation.CreateOrganizationTest@6574a52c]" started-at="2024-08-13T18:29:28 IST" name="acconfig" finished-at="2024-08-13T18:29:28 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acconfig -->
+        <test-method is-config="true" signature="asconfig()[pri:0, instance:Testannotation.CreateOrganizationTest@6574a52c]" started-at="2024-08-13T18:29:28 IST" name="asconfig" finished-at="2024-08-13T18:29:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==DataBase Disconnection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asconfig -->
+      </class> <!-- Testannotation.CreateOrganizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
